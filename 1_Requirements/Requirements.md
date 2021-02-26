@@ -1,8 +1,4 @@
 ﻿
-
-|<br>GENESIS Learning Report – Module Name|![F:\SQA\_Credentials\IES\_to\_TS\_transformation\lnt ts\_logo.jpg](Aspose.Words.2c8dbb33-6dfb-4273-b1e3-95b680fa1db4.001.jpeg)|
-| :- | :- |
-
 **Introduction:**
 
 We are doing data analysis for determine the performance of Student and analyzing the field of improvement where the student need to be Improved also determining the strength or weakness of whole class in Different Module.
@@ -30,11 +26,6 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-
-
-
-
-
 ** 
 
 
@@ -55,29 +46,9 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **SWOT:** 
 
 ![](Aspose.Words.2c8dbb33-6dfb-4273-b1e3-95b680fa1db4.002.jpeg)
-
-
 
 
 
@@ -111,13 +82,4 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-
-
-
-
-
-
-
-|**L&T Technology Services** |**CONFIDENTIAL**|         <br>`     `**Page  PAGE 34 of  NUMPAGES  34**|
-| :- | :- | :- |
 
