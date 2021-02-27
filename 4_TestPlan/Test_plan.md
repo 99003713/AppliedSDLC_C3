@@ -1,6 +1,6 @@
 ﻿**Test Plan**
  
- Low Level Test Plan: -
+ **Low Level Test Plan: -**
  |TEST ID|TEST DESCRIPTION|TEST INPUT|EXPECTED INPUT |ACTUAL OUTPUT|
 | :- | :- | :- | :- | :- |
 |L\_1|To check whether none of the fields should be empty|Empty value in the input module|Prompt message mandatory field missing|Consider missing value as 0|
