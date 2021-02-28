@@ -1,13 +1,13 @@
 ﻿
-***Need:***
+<h2>Need:
 
 To Analysis the performance of an individual student in their assessments we generated the report card so that the Faculty can track the performance of every student, Every student can also track their performance so to make a report We need to do a detailed analysis of Pre survey, Post survey, Pre-test marks, and post-test marks.
 
-**Introduction:**
+<h2>**Introduction:**
 
 We are doing data analysis for determine the performance of Student and analyzing the field of improvement where the student need to be Improved also determining the strength or weakness of whole class in Different Module.
 
-**Requirements:**
+<h2>**Requirements:**
 
 **High level Requirements:**
 
@@ -30,8 +30,6 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-** 
-
 
 **Market Feasibility**: -
 
@@ -50,23 +48,26 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-**SWOT:** 
+<h2>**SWOT:** 
 
 ![](https://github.com/99003713/AppliedSDLC_C3/blob/main/swot.png)
 
 
 
 
-**4W H1**
-1. ## 4W1H:
-   1. ## What- Data analysis refers to the technique of collecting raw data, analyzing it and transforming it into information that can be used to reach a specific conclusion.
-   1. ## Why- ***Data analysis*** provide you with more insights into your customers, allowing you to tailor customer service to their needs, provide more personalization and build stronger relationships with them.
-   1. ## When- The systematic application of statistical and logical techniques to describe the data scope, modularize the data structure, condense the data representation, illustrate via images, tables, and graphs, and evaluate statistical inclinations, probability data, to derive meaningful conclusions,
-   1. ## Where- Data Scientists and Analysts use data analytics techniques in their research, and businesses also use it to inform their decisions.
-   1. ## How- It is a way of thinking and resolving the problems. Includes setting goals, collecting, cleaning, and analyzing data, then With We Check parameters like what benchmark to select for checking the quality of requirement
-**Test Plan: -**
+<h2>**4W H1**
+   
+   
+1. 4W1H:
+   1. What- Data analysis refers to the technique of collecting raw data, analyzing it and transforming it into information that can be used to reach a specific conclusion.
+   1.  Why- ***Data analysis*** provide you with more insights into your customers, allowing you to tailor customer service to their needs, provide more personalization and build stronger relationships with them.
+   1.  When- The systematic application of statistical and logical techniques to describe the data scope, modularize the data structure, condense the data representation, illustrate via images, tables, and graphs, and evaluate statistical inclinations, probability data, to derive meaningful conclusions,
+   1.  Where- Data Scientists and Analysts use data analytics techniques in their research, and businesses also use it to inform their decisions.
+   1.  How- It is a way of thinking and resolving the problems. Includes setting goals, collecting, cleaning, and analyzing data, then With We Check parameters like what benchmark to select for checking the quality of requirement
 
-**Low Level**
+<h2>**Test Plan: -**
+
+<h2>**Low Level**
 
 |TEST ID|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|<p>ACTUAL</p><p>OUTPUT</p>|
 | :- | :- | :- | :- | :- |
@@ -75,7 +76,7 @@ We are doing data analysis for determine the performance of Student and analyzin
 |L\_03|<p>To check if multiple ID’s with same credentials display in same order depending on the alphabetic order</p><p>(scenario based)</p>|Scores resulting to same total values for multiple id’s|Id’s displayed in alphabetical order for same values|<p>Id’s displayed with corresponding marks in alphabetical order</p><p>successfully</p>|
 
 
-**High Level**
+<h2>**High Level**
 
 |TEST ID|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|<p>ACTUAL</p><p>OUTPUT</p>|
 | :- | :- | :- | :- | :- |
