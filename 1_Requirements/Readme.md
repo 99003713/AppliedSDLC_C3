@@ -22,7 +22,7 @@ We are doing data analysis for determine the performance of Student and analyzin
 |Student max|Maximum score of a student|
 |Student min|Minimum score of a student|
 
-**Lower-level Requirements:**          
+**Lower-level Requirements:**
 
 |**Requirement Id**|**Description** |
 | :- | :- |
@@ -59,11 +59,11 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-<h2> 4W H1</h2>
+<h2> 4W H1:-</h2>
 
    
    
-1. 4W1H:
+1. 4W1H
    1. What- Data analysis refers to the technique of collecting raw data, analyzing it and transforming it into information that can be used to reach a specific conclusion.
    1.  Why- ***Data analysis*** provide you with more insights into your customers, allowing you to tailor customer service to their needs, provide more personalization and build stronger relationships with them.
    1.  When- The systematic application of statistical and logical techniques to describe the data scope, modularize the data structure, condense the data representation, illustrate via images, tables, and graphs, and evaluate statistical inclinations, probability data, to derive meaningful conclusions,
