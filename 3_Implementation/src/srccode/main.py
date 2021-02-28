@@ -30,20 +30,4 @@ def main_code():
 
     for i in range(0, pres.shape[0]):
             pass
-    
-
-
-
-
-# print(newexcel)
-# newexcel["LO1"].max()
-# newexcel.iloc[0,2:].sum()
-# no_of_rows=newexcel.shape[0]
-# print(newexcel.head())                                   
-# newexcel.to_excel("Results.xlsx", index = False)
-# print(pres)
-# print(pret)
-# print(posts)
-# # print(postt)
-# r= finalexcel.shape[0]
-# c = newexcel.shape[1]
+   
