@@ -1,5 +1,5 @@
 ﻿
-**Need:**
+***Need:***
 
 To Analysis the performance of an individual student in their assessments we generated the report card so that the Faculty can track the performance of every student, Every student can also track their performance so to make a report We need to do a detailed analysis of Pre survey, Post survey, Pre-test marks, and post-test marks.
 
@@ -52,7 +52,7 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 **SWOT:** 
 
-![](Aspose.Words.2c8dbb33-6dfb-4273-b1e3-95b680fa1db4.002.jpeg)
+![](https://github.com/99003713/AppliedSDLC_C3/blob/main/swot.png)
 
 
 
