@@ -1,4 +1,7 @@
 ﻿
+**Need**
+To Analysis the performance of an individual student in their assessments we generated the report card so that the Faculty can track the performance of every student, Every student can also track their performance so to make a report We need to do a detailed analysis of Pre survey, Post survey, Pre-test marks, and post-test marks.
+
 **Introduction:**
 
 We are doing data analysis for determine the performance of Student and analyzing the field of improvement where the student need to be Improved also determining the strength or weakness of whole class in Different Module.
