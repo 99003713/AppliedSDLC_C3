@@ -54,15 +54,14 @@ We are doing data analysis for determine the performance of Student and analyzin
 <h2> SWOT:- </h2>
 
 
-![](https://github.com/99003713/AppliedSDLC_C3/blob/main/swot.png)
+![](https://github.com/99003713/AppliedSDLC_C3/blob/main/1_Requirements/swot.png)
 
 
 
 
 <h2> 4W H1:-</h2>
 
-   
-   
+     
 1. 4W1H
    1. What- Data analysis refers to the technique of collecting raw data, analyzing it and transforming it into information that can be used to reach a specific conclusion.
    1.  Why- ***Data analysis*** provide you with more insights into your customers, allowing you to tailor customer service to their needs, provide more personalization and build stronger relationships with them.
@@ -73,7 +72,7 @@ We are doing data analysis for determine the performance of Student and analyzin
 <h2>Test Plan: -</h2>
 
 
-<h2>**Low Level**</h2>
+<h2>Low Level</h2>
 
 
 |TEST ID|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|<p>ACTUAL</p><p>OUTPUT</p>|
