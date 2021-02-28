@@ -1,13 +1,15 @@
 ﻿
-<h2>Need:
+<h2>Need:</h2>
 
 To Analysis the performance of an individual student in their assessments we generated the report card so that the Faculty can track the performance of every student, Every student can also track their performance so to make a report We need to do a detailed analysis of Pre survey, Post survey, Pre-test marks, and post-test marks.
 
-<h2>**Introduction:**
+<h2>**Introduction:**</h2>
+
 
 We are doing data analysis for determine the performance of Student and analyzing the field of improvement where the student need to be Improved also determining the strength or weakness of whole class in Different Module.
 
-<h2>**Requirements:**
+<h2>**Requirements:**</h2>
+
 
 **High level Requirements:**
 
@@ -48,14 +50,16 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-<h2>**SWOT:** 
+<h2>**SWOT:** </h2>
+
 
 ![](https://github.com/99003713/AppliedSDLC_C3/blob/main/swot.png)
 
 
 
 
-<h2>**4W H1**
+<h2>**4W H1**</h2>
+
    
    
 1. 4W1H:
@@ -65,9 +69,11 @@ We are doing data analysis for determine the performance of Student and analyzin
    1.  Where- Data Scientists and Analysts use data analytics techniques in their research, and businesses also use it to inform their decisions.
    1.  How- It is a way of thinking and resolving the problems. Includes setting goals, collecting, cleaning, and analyzing data, then With We Check parameters like what benchmark to select for checking the quality of requirement
 
-<h2>**Test Plan: -**
+<h2>**Test Plan: -**</h2>
 
-<h2>**Low Level**
+
+<h2>**Low Level**</h2>
+
 
 |TEST ID|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|<p>ACTUAL</p><p>OUTPUT</p>|
 | :- | :- | :- | :- | :- |
