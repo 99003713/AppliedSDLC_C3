@@ -3,12 +3,12 @@
 
 To Analysis the performance of an individual student in their assessments we generated the report card so that the Faculty can track the performance of every student, Every student can also track their performance so to make a report We need to do a detailed analysis of Pre survey, Post survey, Pre-test marks, and post-test marks.
 
-<h2>**Introduction:**</h2>
+<h2>Introduction:</h2>
 
 
 We are doing data analysis for determine the performance of Student and analyzing the field of improvement where the student need to be Improved also determining the strength or weakness of whole class in Different Module.
 
-<h2>**Requirements:**</h2>
+<h2>Requirements:</h2>
 
 
 **High level Requirements:**
@@ -33,7 +33,8 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-**Market Feasibility**: -
+<h2>Market Feasibility: - </h2>
+
 
 1. Statistical analysis software products are specialized programs designed to allow users to perform complex statistical analysis
 1. Marking of scores in necessary to determine the overall performance of the individual also it is needed to determine the areas of the improvement where the individual need the improvement 
@@ -50,7 +51,7 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-<h2>**SWOT:** </h2>
+<h2> SWOT:- </h2>
 
 
 ![](https://github.com/99003713/AppliedSDLC_C3/blob/main/swot.png)
@@ -58,7 +59,7 @@ We are doing data analysis for determine the performance of Student and analyzin
 
 
 
-<h2>**4W H1**</h2>
+<h2> 4W H1</h2>
 
    
    
@@ -69,7 +70,7 @@ We are doing data analysis for determine the performance of Student and analyzin
    1.  Where- Data Scientists and Analysts use data analytics techniques in their research, and businesses also use it to inform their decisions.
    1.  How- It is a way of thinking and resolving the problems. Includes setting goals, collecting, cleaning, and analyzing data, then With We Check parameters like what benchmark to select for checking the quality of requirement
 
-<h2>**Test Plan: -**</h2>
+<h2>Test Plan: -</h2>
 
 
 <h2>**Low Level**</h2>
@@ -82,7 +83,8 @@ We are doing data analysis for determine the performance of Student and analyzin
 |L\_03|<p>To check if multiple ID’s with same credentials display in same order depending on the alphabetic order</p><p>(scenario based)</p>|Scores resulting to same total values for multiple id’s|Id’s displayed in alphabetical order for same values|<p>Id’s displayed with corresponding marks in alphabetical order</p><p>successfully</p>|
 
 
-<h2>**High Level**
+<h2>High Level</h2>
+
 
 |TEST ID|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|<p>ACTUAL</p><p>OUTPUT</p>|
 | :- | :- | :- | :- | :- |
