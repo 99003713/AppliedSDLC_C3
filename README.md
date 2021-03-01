@@ -25,4 +25,7 @@ Name                             |   PS No.  |    Features    |
     3)We faced challenges in git insprector
     4)We faced challenges in makefile
 
+<h2> Gantt Chart </h2>
+
+![](https://github.com/99003713/AppliedSDLC_C3/blob/main/1_Requirements/Gantt_Chart.PNG)
 
