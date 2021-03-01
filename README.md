@@ -1,5 +1,5 @@
 # AppliedSDLC_C3
-# Team 5- BMI and BMR CALCULATOR
+# Team C3- Data Merge Analysis & Auto Mailer 
 
 [![Code Grade](https://www.code-inspector.com/project/18985/score/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/18985/status/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
