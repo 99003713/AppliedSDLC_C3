@@ -24,6 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest codecov
+        cd 3_Implementation
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
@@ -36,5 +37,6 @@ jobs:
         # pytest
         # command to run tests
         export PYTHONPATH=$PYTHONPATH:$(pwd)
+        cd 3_Implementation
         python test_main.py
         coverage run 3_Implementation/test_main.py
