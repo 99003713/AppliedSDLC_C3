@@ -33,5 +33,5 @@ jobs:
         # pytest
         # command to run tests
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-        python main.py
+        python 3_Implementation/main.py
         #coverage run palindrom-test.py
