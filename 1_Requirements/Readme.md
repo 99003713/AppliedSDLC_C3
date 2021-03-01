@@ -91,7 +91,8 @@ We are doing data analysis for determine the performance of Student and analyzin
 |H\_02|To check if e-mail is triggered to every stakeholder. (Scenario-based)|Module with e-mail IDs of stakeholders other than students|e-mail triggered to every stakeholder.|Mails not triggered to stakeholders other than students|
 |H\_03|To check if the results are not more than input rows (Boundary-based)|Mark values of all students|Output rows same as input rows|Repetition of student IDs after input module integration|
 
+<h2> Gantt Chart </h2>
 
-
+![](https://github.com/99003713/AppliedSDLC_C3/blob/main/1_Requirements/Gantt_Chart.PNG)
 
 
