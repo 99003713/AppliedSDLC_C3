@@ -1,17 +1,33 @@
-name: python CI
+name: Sync workflows for GHES
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+    - main
 
 jobs:
-  build:
-
-    runs-on: windows-latest
-
+  sync:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: make
-      run: make -C 3_Implementation/main.py
+    - run: |
+        git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+        git config user.email "cschleiden@github.com"
+        git config user.name "GitHub Actions"
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+    - name: Check starter workflows for GHES compat
+      run: |
+        npm ci
+        npx ts-node-script ./index.ts
+      working-directory: .3_Implementation/main.py
+    - run: |
+        git add -A
+        if [ -z "$(git status --porcelain)" ]; then
+          echo "No changes to commit"
+        else
+          git commit -m "Updating GHES workflows"
+        fi
+    - run: git push
+     
