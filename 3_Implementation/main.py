@@ -73,9 +73,13 @@ newlist4 = list_create1(pret)
 sum3 = average_of_all(newlist4)
 newlist5 = list_create1(postt)
 sum4 = average_of_all(newlist5)
+sum4sort = sorted(sum4) 
+bottom5 = sum4sort[:5]
+top5 = sum4sort[-5:]
 PREAVG_SCORE_CLASS = 0
 POSTAVG_SCORE_CLASS = 0
 allscore = []
+
 for i2 in range(0, n1):
 
     # this loop is used for pre-test and post-test
@@ -87,12 +91,13 @@ for i2 in range(0, n1):
     else:
         MYSTR = "FAIL"
     radar_chart.create_radar(newlist4[i2], newlist5[i2])
-    mailgenerator.mail2((newlist3[1][i2]), newlist3[0][i2], score1, score2, MYSTR)
+    mailgenerator.mail2((newlist3[1][i2]), newlist3[0][i2], score1, score2, MYSTR, top5, bottom5 )
     mailgenerator.mail2("omprakashiit2016@gmail.com",
-                        newlist3[0][i2], score1, score2, MYSTR)
+                        newlist3[0][i2], score1, score2, MYSTR, top5, bottom5)
     PREAVG_SCORE_CLASS = PREAVG_SCORE_CLASS + score1
     POSTAVG_SCORE_CLASS = POSTAVG_SCORE_CLASS + score2
 # ....................................................................................
+
 
 PREAVG_SCORE_CLASS = PREAVG_SCORE_CLASS//n1
 POSTAVG_SCORE_CLASS = POSTAVG_SCORE_CLASS//n1
