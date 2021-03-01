@@ -30,6 +30,3 @@ jobs:
         run: |
           cd 3_Implementation
           python main.py
-
-          echo Add other actions to build,
-          echo test, and deploy your project.
