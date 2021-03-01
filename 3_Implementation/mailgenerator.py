@@ -31,7 +31,7 @@ def mail1(str1, str2):
         smtp.send_message(msg)
 
 
-def mail2(str1, str2, xvalue, yvalue, str3):
+def mail2(str1, str2, xvalue, yvalue, str3, top5, bottom5):
     ''' this function we will use for pretest and post test'''
     EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
     # EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
@@ -46,6 +46,8 @@ def mail2(str1, str2, xvalue, yvalue, str3):
     msg.set_content(
         f'''This is your score card.\nYour Pre test score is : {xvalue}
             Your Post test scores is : {yvalue}\nand you are {str3} in Assessment.
+            Numbers of bottom 5 students are : {bottom5}
+            Numbers of top 5 students are : {top5}
             Please find the growth chart below.''')
 
     with open('chart.png', 'rb') as f:
