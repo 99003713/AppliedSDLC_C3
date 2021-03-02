@@ -20,5 +20,4 @@ Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
 
-if any Bugs & Fixes than Contact admin main 
-1).okankit1312@gmail.com
+if any Bugs & Fixes than please Contact admin main okankit1312@gmail.com
