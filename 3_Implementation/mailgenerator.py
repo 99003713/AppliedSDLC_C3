@@ -5,68 +5,56 @@ import imghdr
 from email.message import EmailMessage
 
 
-def mail1(str1, str2):
-    ''' this function we will use for presurvey and postsurvey'''
+def studentmail(name_of_student, mail_of_student, presursum, pretestsum, postsurtest, posttestsum):
+    ''' This function is used to send mail to every students '''
     EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
     # EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-
     # contacts = ['YourAddress@gmail.com', 'test@example.com']
 
     msg = EmailMessage()
-    msg['Subject'] = f'Review Report of {str2}'
+    msg['Subject'] = 'Performance score of Python Advanced'
     msg['From'] = EMAIL_ADDRESS
-    msg['To'] = str1
+    msg['To'] = mail_of_student
 
-    msg.set_content(f'''This report will show the comparison of pre review and post review
-                        and in upcoming mail you can check your Assessment score''')
+    msg.set_content(f'Dear {name_of_student},\nPlease find growth report Below\nYour Pre survey Score is : {presursum}\nYour Pre Assessment Score is : {pretestsum}\nYour Post Survey Score is : {postsurtest}\nYour Post Assessment Score is : {posttestsum}')
+    # def
+    with open('Presurvey.png', 'rb') as f:
 
-    with open('chart.png', 'rb') as f:
         file_data = f.read()
         file_type = imghdr.what(f.name)
         file_name = f.name
-    msg.add_attachment(file_data, maintype='image', subtype=file_type)
+    msg.add_attachment(file_data, maintype='image',
+                       subtype=file_type, filename=file_name)
+    with open('Pretest.png', 'rb') as f:
+
+        file_data = f.read()
+        file_type = imghdr.what(f.name)
+        file_name = f.name
+    msg.add_attachment(file_data, maintype='image',
+                       subtype=file_type, filename=file_name)
+    with open('Postsurvey.png', 'rb') as f:
+
+        file_data = f.read()
+        file_type = imghdr.what(f.name)
+        file_name = f.name
+    msg.add_attachment(file_data, maintype='image',
+                       subtype=file_type, filename=file_name)
+    with open('Posttest.png', 'rb') as f:
+
+        file_data = f.read()
+        file_type = imghdr.what(f.name)
+        file_name = f.name
+    msg.add_attachment(file_data, maintype='image',
+                       subtype=file_type, filename=file_name)
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
         smtp.login('helloankit13@gmail.com', 'Ankit@7065')
         smtp.send_message(msg)
 
 
-def mail2(str1, str2, xvalue, yvalue, str3, top5, bottom5):
-    ''' this function we will use for pretest and post test'''
-    EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
-    # EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-
-    # contacts = ['YourAddress@gmail.com', 'test@example.com']
-
-    msg = EmailMessage()
-    msg['Subject'] = f'Assessment score of {str2}'
-    msg['From'] = EMAIL_ADDRESS
-    msg['To'] = str1
-
-    msg.set_content(
-        f'''This is your score card.\nYour Pre test score is : {xvalue}
-            Your Post test scores is : {yvalue}\nand you are {str3} in Assessment.
-            Numbers of bottom 5 students are : {bottom5}
-            Numbers of top 5 students are : {top5}
-            Please find the growth chart below.''')
-
-    with open('chart.png', 'rb') as f:
-        file_data = f.read()
-        file_type = imghdr.what(f.name)
-        file_name = f.name
-    msg.add_attachment(file_data, maintype='image', subtype=file_type)
-
-    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-        smtp.login('helloankit13@gmail.com', 'Ankit@7065')
-        smtp.send_message(msg)
-
-
-def mail3(str1, preavg, postavg, high, low):
+def facultymail(str1, preavg, postavg, high, low, top5, bottom5):
     ''' this function is only used for class instructor'''
     EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
-    # EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-
-    # contacts = ['YourAddress@gmail.com', 'test@example.com']
 
     msg = EmailMessage()
     msg['Subject'] = 'Report card of your Class'
@@ -74,10 +62,7 @@ def mail3(str1, preavg, postavg, high, low):
     msg['To'] = str1
 
     msg.set_content(
-        f'''Average Score of Pretest is : {preavg}
-        Average Score of posttest is : {postavg}
-        Highest score from your class is : {high}
-        Lowest score from your class is : {low} ''')
+        f'Average Score of Pretest is : {preavg}\nAverage Score of posttest is : {postavg}\nHighest score from your class is : {high}\nLowest score from your class is : {low}\nTop 5 Scores fromm your class are : {top5}\nBottom 5 scores from your class are : {bottom5}')
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
         smtp.login('helloankit13@gmail.com', 'Ankit@7065')
