@@ -18,7 +18,9 @@ Name                             |   PS No.  |    Features    |
 ---------------------------------|-----------|----------------|
 `1) OmPrakash harod`             | 99003713  | Fetching data using Pandas,Integaration,Requirment|    
 `2) Ankit Kumar Yadav`           | 99003648  | Email Automation,SWOT,4W1H|  
-`3) Manu Nadar     `             | 99003711  | Data Visiulization, Class UMl Diagram,Test Plan|        
+`3) Manu Nadar     `             | 99003711  | Data Visiulization, Class UMl Diagram,Test Plan| 
+
+![](https://github.com/99003713/AppliedSDLC_C3/blob/main/Git_inspector.PNG)
 
 ## Challenges
 
@@ -30,4 +32,7 @@ Name                             |   PS No.  |    Features    |
 <h2> Gantt Chart </h2>
 
 ![](https://github.com/99003713/AppliedSDLC_C3/blob/main/1_Requirements/Gantt_Chart.PNG)
+
+
+
 
