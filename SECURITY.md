@@ -5,12 +5,12 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Python Version | Supported          |
+| ------| ------------------ |
+| 3.9.2 | :white_check_mark: |
+| 3.8   | :white_check_mark:|
+| 3.6   | :white_check_mark: |
+| < 3.0 | :white_check_mark:               |
 
 ## Reporting a Vulnerability
 
