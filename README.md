@@ -1,5 +1,5 @@
 [![Python CI](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/python_main.yml/badge.svg)](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/python_main.yml) 
-
+[![CodeQL](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/codeql-analysis.yml)
 # AppliedSDLC_C3
 # Team C3- Data Merge Analysis & Auto Mailer 
 
