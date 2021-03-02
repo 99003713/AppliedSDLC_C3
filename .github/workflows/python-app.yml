@@ -37,6 +37,6 @@ jobs:
         # pytest
         # command to run tests
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-        cd 3_Implementation
+        cd 3_Implementation/test_main.py
         python test_main.py
         coverage run 3_Implementation/test_main.py
