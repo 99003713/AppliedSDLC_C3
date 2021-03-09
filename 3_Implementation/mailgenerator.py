@@ -65,5 +65,5 @@ def facultymail(str1, preavg, postavg, high, low, top5, bottom5):
         f'Average Score of Pretest is : {preavg}\nAverage Score of posttest is : {postavg}\nHighest score from your class is : {high}\nLowest score from your class is : {low}\nTop 5 Scores fromm your class are : {top5}\nBottom 5 scores from your class are : {bottom5}')
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-        smtp.login('test.scored@gmail.com', 'testscored@123')
+        smtp.login('helloankit13@gmail.com', 'Ankit@7065')
         smtp.send_message(msg)
