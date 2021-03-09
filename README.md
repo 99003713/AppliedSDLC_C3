@@ -37,7 +37,7 @@ Name                             |   PS No.  |    Features    |
 
 ## Code Quality 
 
-![](https://github.com/99003713/AppliedSDLC_C3/blob/main/1_Requirements/Code%20Quality_Pylint.PNG.PNG)
+![](https://github.com/99003713/AppliedSDLC_C3/blob/main/1_Requirements/CodeQuality.PNG)
 
 <h2> Gantt Chart </h2>
 
