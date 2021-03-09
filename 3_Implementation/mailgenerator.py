@@ -48,7 +48,7 @@ def studentmail(name_of_student, mail_of_student, presursum, pretestsum, postsur
                        subtype=file_type, filename=file_name)
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-        smtp.login('helloankit13@gmail.com', 'Ankit@7065')
+        smtp.login('test.scored@gmail.com', 'testscored@123')
         smtp.send_message(msg)
 
 
