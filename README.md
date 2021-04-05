@@ -1,7 +1,7 @@
 [![CodeQL](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/codeql-analysis.yml)
 [![Python CI](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/python_main.yml/badge.svg)](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/python_main.yml)
 [![PyLint](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/pylint.yml/badge.svg)](https://github.com/99003713/AppliedSDLC_C3/actions/workflows/pylint.yml)
-[![PyTest](https://github.com/99003654/App_for_student/actions/workflows/pytest.yml/badge.svg)](https://github.com/99003654/App_for_student/actions/workflows/pytest.yml) | 
+[![PyTest](https://github.com/99003654/App_for_student/actions/workflows/pytest.yml/badge.svg)](https://github.com/99003654/App_for_student/actions/workflows/pytest.yml)
 # AppliedSDLC_C3
 # Team C3- Data Merge Analysis & Auto Mailer 
 
